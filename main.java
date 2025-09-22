@@ -1,5 +1,5 @@
 public class main {
-    public main(String[] args) {
+    public static void main(String[] args) {
         Dog anjing = new Dog("ASTRID", 5, "Dog Food", gender.FEMALE, alive.ALIVE);
         System.out.println(anjing.move());
         System.out.println(anjing.move(anjing.name,5));
